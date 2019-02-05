@@ -1,0 +1,24 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Coiny', cursive;
+	background-color: white;
+}
+
+.container{
+	padding: 10px;
+	margin: 10px;
+	background-color: #e1e1e1;
+	font-weight: bold;
+}
+.button{
+	border-radius: 5px;
+	color: white;
+	background-color: #fe1849;
+	margin:10px;
+	border: 1px solid #000;
+}
+.button:hover{
+	background-color: blue;
+	cursor: pointer;
+}
