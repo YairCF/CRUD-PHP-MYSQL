@@ -47,16 +47,15 @@
                 <div class="card">
                   <div class="card-body">
                     <form action="edit_product.php?id=<?php echo $_GET['id'];?>" method="POST">
-                    <div class="form-group">
-                            <label for="name_product">Name</label>
-                            <input type="text" value="<?php echo $name; ?>" class="form-control" autofocus name="name_product" id="name_product" aria-describedby="helpId" placeholder="enter name">
-                            <small id="helpId" class="form-text text-muted">Name of Product</small>
+                        <div class="form-group">
+                            <label for="name_product">Nombre</label>
+                            <input type="text" value="<?php echo $name; ?>" class="form-control" autofocus name="name_product" id="name_product" aria-describedby="helpId" placeholder="Nombre">
                         </div>
                         <div class="form-group">
-                            <label for="description_product">Description</label>
-                            <textarea class="form-control" name="description_product" id="description_product" rows="2" placeholder="enter description"><?php echo $description;?></textarea>
+                            <label for="description_product">Descripcion</label>
+                            <textarea class="form-control" name="description_product" id="description_product" rows="2" placeholder="Descripcion"><?php echo $description;?></textarea>
                         </div>
-                        <input type="submit" name="update_product" id="" class="btn btn-warning btn-block" value="Update" />
+                        <input type="submit" name="update_product" id="" class="btn btn-warning btn-block" value="Actualizar" />
                     </form>
                   </div>
                 </div>

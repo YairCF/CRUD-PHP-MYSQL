@@ -6,8 +6,5 @@
         <li class="nav-item">
             <a class="nav-link" href="products.php">Productos</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="categories.php">Categorias</a>
-        </li>
     </ul>
 </nav>
